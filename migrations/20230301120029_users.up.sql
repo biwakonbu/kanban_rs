@@ -1,0 +1,5 @@
+-- Add migration script here
+CREATE TABLE IF NOT EXISTS users(
+       id VARCHAR(128) NOT NULL PRIMARY KEY COMMENT 'ULID',
+       name VARCHAR(255) NOT NULL COMMENT 'ユーザ名'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_ja_0900_as_cs;
