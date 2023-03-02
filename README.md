@@ -18,6 +18,7 @@ DB アクセスには sqlx を使うため、マイグレーション用に sqlx
 $ cargo install sqlx-cli
 ```
 
+sqlx-cli 使い方
 ``` shellsession
 # DB 作成
 $ sqlx-cli database create
