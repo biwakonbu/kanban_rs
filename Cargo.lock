@@ -564,6 +564,7 @@ dependencies = [
  "dotenv",
  "serde",
  "sqlx",
+ "thiserror",
  "tokio",
  "tracing",
  "tracing-subscriber",
