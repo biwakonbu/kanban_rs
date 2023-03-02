@@ -1,5 +1,14 @@
 # README
 
+## 参考ページ
+
+- [YewとaxumとShuttleで RealWorld example を書いてみた](https://zenn.dev/tanakh/articles/realworld-zum-yew-shuttle)
+  axum の導入の参考に
+
+## 参考リポジトリ
+
+- [tanakh/axum-yew-shuttle-realworld-example-app](https://github.com/tanakh/axum-yew-shuttle-realworld-example-app)
+  エラーハンドリングの導入の参考に利用
 ## Install
 
 特にやる事はない。コンパイル確認するなら check を使う。
