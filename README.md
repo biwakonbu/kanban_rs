@@ -19,6 +19,7 @@ $ cargo check
 
 ## Tools
 
+### sqlx-cli
 DB アクセスには sqlx を使うため、マイグレーション用に sqlx-cli を導入する。
 `.env` ファイルに `DATAABASE_URL` を設定する事で使用可能。
 
@@ -41,6 +42,25 @@ $ sqlx-cli migrate add -r <migrate-name>
 $ sqlx-cli migrate run
 # ロールバック (1つずつ)
 $ sqlx-cli migrate revert
+```
+
+### xh
+
+CUI でのリクエストチェックに。curl 以外のリッチなツールとして。
+
+インストール
+
+``` shellsession
+$ cargo install xh
+```
+
+利用例
+
+``` shellsession
+# GET
+$ xh get http://localhost:3000/users
+# POST
+$ xh post http://localhost:3000/users username=biwakonbu
 ```
 
 ## Setup
